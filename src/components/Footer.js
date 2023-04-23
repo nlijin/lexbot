@@ -1,5 +1,4 @@
 import * as React from "react";
-import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
@@ -24,14 +23,9 @@ export default function StickyFooter() {
         flexDirection: "column",
         alignItems: "center",
         textAlign: "center",
-        // minHeight: "100vh",
-        // position: "fixed",
         top: "auto",
         bottom: "0",
-        backgroundColor: (theme) =>
-          theme.palette.mode === "light"
-            ? theme.palette.grey[200]
-            : theme.palette.grey[800],
+        backgroundColor: "gray",
       }}
     >
       <Box
